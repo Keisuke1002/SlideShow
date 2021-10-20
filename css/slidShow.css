@@ -1,0 +1,26 @@
+.title{
+  font-size: xx-large;
+  text-align: center;
+  color: gold;
+  text-shadow:1px 2px 3px #808080
+}
+.main img{
+    width: 300px;
+    vertical-align: middle;
+}
+
+.main{
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+}
+
+.thumbnails{
+  opacity: 0.5;
+  margin: auto;
+  text-align: center;
+}
+
+.thumbnails img{
+  width: 50px;
+}

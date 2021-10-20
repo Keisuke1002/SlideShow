@@ -1,0 +1,23 @@
+table{
+  margin: 0 auto;
+  text-align: center;
+}
+tr:nth-child(3n+1){
+  background-color:gold;
+}
+tr:nth-child(3n+3){
+  background-color:silver;
+}
+img{
+  opacity: 0.3;
+}
+img:hover{
+  opacity: 1.0;
+}
+h1 caption{
+  color: red;
+}
+
+#Sample {
+  color: blue;
+}
