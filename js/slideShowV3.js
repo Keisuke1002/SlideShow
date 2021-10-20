@@ -45,15 +45,16 @@ function right(){
 }
 
 function autoPlay(){
+  right();
   timer = setTimeout(function(){
-    right()
-  autoPlay()
+  autoPlay();
 }, 1000);
 }
 
 function play(){
   if(!nowPlaying){
-    autoPlay()
+    nowPlaying=true;
+    autoPlay();
   }
 }
 
